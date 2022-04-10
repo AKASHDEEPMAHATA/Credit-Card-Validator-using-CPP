@@ -29,8 +29,10 @@ a) Double the value of every other digit from right to left, beginning with the 
 b) Add the digits of the results of the previous step to the remaining digits in the credit card number.
 The digits of the result of Step a amount to the following:
 1+6+1+8+4+6+1+6+1+4+4+8 = 50
+
 The remaining digits in the credit card number amount to the following:
 6+4+4+2+3+4+0+0 = 23
+
 The sum of the two sub results is:
 23+50 = 73
 
