@@ -1,2 +1,3 @@
-# Credit-Card-Validator-using-C-
+# Credit-Card-Validator-using-CPP
+
 This project is based on  Luhn’s algorithm.
