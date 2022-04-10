@@ -18,13 +18,21 @@ a) Double the value of every other digit from right to left, beginning with the 
 4624 7482 3324 9080:
 
 8*2 = 16
+
 9*2 = 18
+
 2*2 = 4
+
 3*2 = 6
+
 8*2 = 16
+
 7*2 = 14
+
 2*2 = 4
+
 4*2 = 8
+
 
 b) Add the digits of the results of the previous step to the remaining digits in the credit card number.
 The digits of the result of Step a amount to the following:
@@ -39,4 +47,4 @@ The sum of the two sub results is:
 c) If the result mod 10 is equal to 0, the number is valid. If the result mod 10 is not equal to 0, the validation fails.
 73 mod 10 is 3, therefore the card number is not valid.
 
-A Visa credit card of number 4624 7482 3324 9780, on the other hand, passes the validation.
+
