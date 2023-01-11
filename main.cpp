@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <iostream>
 #include <string>
 
@@ -14,10 +13,9 @@ bool isNumberString(const string& s) {
 }
 
 int main() {
+  
     string ccNumber;
-    
-
-    
+  
     while (true) {
         
         cout << "Please enter a Credit Card number to validate: ";
@@ -33,7 +31,7 @@ int main() {
             
         int len = ccNumber.length();
         int doubleEvenSum = 0;
-        
+        int OddSum = 0;
       
         
         for (int i = len - 2; i >= 0; i = i - 2) {
@@ -46,12 +44,14 @@ int main() {
         
         
         for (int i = len - 1; i >= 0; i = i - 2) {
-            doubleEvenSum += (ccNumber[i] - 48);
+            OddSum += (ccNumber[i] - 48);
         }
         
+        int total = doubleEvenSum + OddSum;
         
-        cout << (doubleEvenSum % 10 == 0 ? "Valid!" : "Invalid!") << endl;
-        
+        if(total % 10 == 0 ) cout<<"Valid"<<endl;
+        else cout<<"Invalid"<<endl;
+
         continue;        
     }
 
